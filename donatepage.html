@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>RHO - Donation Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <div class = "header">
+        <h1>Recinos Health Organization - Donation Page</h1>
+        <h2 class = "quote">"Empowering Health, Enriching Lives"</h2>
+        <p>
+           <img class = "logo" src="https://codehs.com/uploads/a4b92a528b15f28c34ce1c7ae8f3e483">
+        </p>
+    </div>
+    <hr>
+    <body>
+
+    </body>
+    
+    <body>
+        <p>
+            <form action="/action_page.php">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="amount">Amount:</label>
+                $ <input type="text" id="amount" name="amount"><br><br> 
+                Payment Method: <select name="cars" id="cars">
+                  <option value="paypal">Paypal</option>
+                  <option value="zelle">Zelle</option>
+                  <option value="transfer">Bank Transfer</option>
+                  <option value="cashapp">Cashapp</option>
+                </select>
+                <br>
+                <br>
+                <input class = "donatebutton" type="button" onclick="location.href='thankyou.html';" value="Donate!" />
+            </form>
+
+        </p>
+        <hr>
+        <div class = "header" id = "bottom-options">
+            <a href = "donate.html">Go Back</a>
+        </div>
+    </body>
+</html>
